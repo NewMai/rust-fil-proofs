@@ -734,7 +734,7 @@ mod tests {
     }
 
     #[test]
-    #[ignore]
+    // #[ignore]
     fn test_window_post_single_partition_matching() -> Result<()> {
         let sector_size = SECTOR_SIZE_2_KIB;
         let sector_count = *WINDOW_POST_SECTOR_COUNT
